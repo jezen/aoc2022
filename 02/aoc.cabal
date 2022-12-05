@@ -1,0 +1,14 @@
+cabal-version:       2.2
+name:                aoc
+version:             0.1.0.0
+author:              Jezen Thomas
+maintainer:          jezen@jezenthomas.com
+build-type:          Simple
+
+executable aoc
+  main-is:             Main.hs
+  build-depends:
+      base
+    , classy-prelude
+    , conduit
+  default-language:    Haskell2010
